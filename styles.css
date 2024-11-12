@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('images/fondoweb.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+}
+
+header nav a {
+    color: rgb(238, 0, 0);
+    margin: 300px;
+    text-decoration: none;
+}
+
+main {
+    padding: 40px;
+    background-color: rgba(36, 162, 212, 0.8);
+    margin: 15cm;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: white;
+    text-align: start;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Resto de estilos CSS aquí */
+
+/* Estilos para la sección de detalles del producto */
+.product-details {
+    background-color: rgba(8, 173, 96, 0.95);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(255, 255, 255);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.product-details h2 {
+    margin-top: 10cm;
+}
+
+.product-details img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 200px;
+}
